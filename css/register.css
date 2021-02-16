@@ -1,0 +1,191 @@
+body{
+	margin:0;
+	padding: 0;
+	background-color:#879fb0;
+}
+
+
+.main{
+display:block;
+position:relative;
+background-image: linear-gradient(90deg,rgb(124, 156, 121),#879fb0);
+margin:0 auto;
+box-shadow: 1px 1px 10px black;
+width:80%;
+margin-top:50px;
+height:85%;
+}
+
+.left{
+	display:block;
+	float:left;
+	width:30%;
+	height:90%;
+	margin:1vw auto;
+}
+
+.right{
+	display:block;
+	float:right;
+	width:68%;
+	height:94%;
+	margin:1vw auto;
+	background: white	;
+	margin-right: 1vw;
+	border-left: 3px groove;
+}
+
+
+
+.title{
+	display:block;
+margin:0 auto;
+margin-top: 100px;
+margin-left: 10px;
+}
+
+.welcome{
+	background-color: rgb(104, 122, 121,0.9);
+	color:white;
+	font-size:50px;
+	font-family: 'Baloo Tamma 2', cursive;
+	margin: 0 auto;
+	border-radius:14px;
+	text-shadow: 2px 2px 6px black;
+	width:20vw;
+	text-align: center;
+	display:block;
+}
+.title img{
+display:block;
+margin:0 auto;
+width:8vw;
+height:auto;
+margin-bottom: 15px;
+}
+
+.title a{
+font-size:20px;
+color:rgb(0, 48, 23);
+text-shadow: 1px 1px 1px rgb(142, 150, 158);
+text-decoration: none;
+}
+
+.abc{
+	background:rgba(0, 0, 0, 0.3);
+	font-family: 'Alata', sans-serif;
+border-radius:10px;
+color:white;
+text-align: justify;
+padding: 10px;
+justify-content: center;
+padding-left:10px;
+margin:10px;
+}
+
+.title2{
+border-bottom: 2px solid black;
+display:block;
+width:25%;
+padding:0 auto;
+padding-bottom: 10px;
+padding-left: 10px;
+margin-top:2%;
+margin-left:1%;
+font-size: 1.5vw;
+	font-family: 'Alata', sans-serif;
+}
+
+.inputs{
+	display:block;
+	margin:0 auto;
+		margin-top: 10px;
+}
+
+.leftinput{
+	width:45%;
+	height:60%;
+	float:left;
+	margin-left:5%;
+	margin-top:2%;
+}
+.rightinput{
+
+	margin:0 auto;
+		width:45%;
+			height:60%;
+	float:right;
+		margin-right:2%;
+	margin-top:2%;
+}
+
+.rightinput label{
+	margin:50px;
+}
+
+.rightinput textarea{
+	margin-bottom:30px;
+}
+
+.bottominput {
+	float: bottom;
+		width:100%;
+	height:40%;
+	display:block;
+margin: 0 auto;
+
+}
+.bottominput input{
+margin-left: 20%;
+margin-top: 50px;
+}
+
+.inputs textarea{
+		padding-left:10px;
+  background:white;
+  height:50px;
+  border:0;
+  outline:none;
+	border-radius: 1px;
+	box-shadow: 1px 1px 2px black;
+	width:300px;
+}
+.leftinput input ,.rightinput input{
+		padding-left:10px;
+  background:white;
+  height:50px;
+  border:0;
+  outline:none;
+	border-radius: 1px;
+	box-shadow: 1px 1px 2px black;
+	width:300px;
+	transition:2s;
+}
+
+.leftinput input:focus, .rightinput input:focus{
+
+	border-radius:100px;
+	transition:1s;
+	box-shadow: 1px 1px 2px gray;
+}
+
+
+.bottominput input{
+		font-family: 'Baloo Tamma 2', cursive;
+		font-size:20px;
+		width:120px;
+		border-radius:10px;
+		outline:none;
+		background-color:#48a6e2;
+		border:solid;
+		color:white;
+		text-shadow: 1px 1px 5px black;
+		transition:0.1s;
+		border:solid 1px #5196ec;
+
+}
+
+.bottominput input:active{
+	transition:0.2s;
+	box-shadow: 0px 0px 5px gray,0px 0px 10px gray;
+}

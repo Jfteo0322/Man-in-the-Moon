@@ -1,0 +1,112 @@
+body{
+  margin:0;
+  padding: 0;
+background-image: url('https://www.zastavki.com/pictures/1366x768/2019Food_Dairy_products_on_a_wooden_table_133318_24.jpg');
+background-size:100%;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#wrap{
+  margin:0 auto;
+  width:50%;
+  margin-top:1%;
+  height:75%;
+
+}
+
+img{
+width:8vw;
+height:8vw;
+margin:0 auto;
+margin-bottom: -1vw;
+display: block;
+-webkit-filter: drop-shadow(1px 1px 5px #222);
+}
+
+.main{
+width:80%;
+height:85%;
+margin:0 auto;
+display: block;
+text-align: center;
+box-shadow: 1px 1px 10px black;
+background-color: rgba(0, 0, 0, 0.6);
+border-radius: 5px;
+}
+
+.inputs #input{
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 1vw;
+	margin: 0 auto;
+  padding: 15px 20px;
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  display: block;
+  transition: all 0.3s;
+  justify-content: center;
+  outline-color: black;
+  margin-bottom: -10px;
+}
+
+#btn{
+margin-top:40px;
+margin-left: 43%;
+margin-bottom: -5%;
+border-radius:10px;
+width:10vw;
+height:3vw;
+background-color: rgba(255, 255, 255, 0);
+color:white;
+font-family: 'Roboto', sans-serif;
+border-color: white;
+}
+
+#back{
+  position:relative;
+  left:3vw;
+  bottom:-7vw;
+  display:block;
+  width:10vw;
+  height: 2.5vw;
+  background: #19647E;
+  color:white;
+}
+
+.inputs{
+  style="font-family: 'Alata',sans-serif;
+  font-size:1vw;
+  display: flex;
+  flex-direction: column;
+  overflow:hidden;
+}
+
+.leftinput{
+width:50%;
+float:left;
+}
+
+.rightinput{
+width:50%;
+float:left;
+}
+
+#select{
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 1vw;
+	margin: 0 auto;
+  padding: 15px 20px;
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  display: block;
+  transition: all 0.3s;
+  justify-content: center;
+  outline-color: black;
+  margin-bottom: -10px;
+  width:97%;
+  margin-left: 19px;
+}

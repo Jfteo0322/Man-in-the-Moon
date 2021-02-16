@@ -1,0 +1,263 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mainbody{
+  display:block;
+  margin:0 auto;
+  margin-top: 10px;
+  width:1000px;
+  border: 1px solid black;
+  height:700px;
+}
+
+.pricedisplay{
+  bottom:0;
+  	display: flex;
+	justify-content: flex-end;
+  right:250px;
+  background: linear-gradient(90deg,rgb(200, 191, 159),rgb(244, 231, 68));
+}
+
+.pricetable{
+  margin:20px;
+}
+
+.pricetable td{
+  padding-right:10px;
+}
+
+
+.itemdisplay{
+  width:100%;
+  overflow-y: auto;
+  height:63%;
+}
+
+.checkout {
+  width:160px;
+  height:40px;
+}
+
+.itemdisplay img{
+width:100px;
+float:left;
+margin-left: 5px;
+margin-right: 8px;
+}
+
+.itemdisplay table{
+  width:100%;
+}
+
+.itemdisplay th{
+background: rgb(215, 181, 122);
+height:40px;
+color:white;
+text-shadow: 0px 0px 2px gray;
+}
+.item_info p{
+    margin-bottom:0;
+}
+
+.item_info small{
+    font-weight: 300;
+}
+
+button.remove{
+    font-size:13px;
+    text-decoration: none;
+    color:rgb(223, 113, 47);
+    background-color: transparent;
+    font-weight: 600;
+    outline:none;
+    border:none;
+}
+button:hover.remove{
+      color:rgb(223, 55, 47);
+}
+button:active.remove{
+  color:white;
+  background-color: #de2a2a;
+}
+
+.item td{
+  border-bottom: 1px solid black;
+}
+
+.title h1{
+}
+.title button{
+  float:right;
+  margin-top: -50px;
+  margin-right:20px;
+  width:100px;
+  height:35px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  margin-top:-80px;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+  height:90%;
+  border-radius: 30px;
+}
+
+/* The Close Button */
+.close {
+  color: #e88888;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  position:absolute;
+    z-index: 2;
+    right:320px;
+}
+
+.close:hover,
+.close:focus {
+  color: #fa4927;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#search1{
+  width:300px;
+  height:40px;
+  border-radius:10px;
+  outline:none;
+  border: 1px solid black;
+}
+
+#search2{
+  width:100px;
+  height:40px;
+  border-radius: 10px;
+  outline:none;
+  border:none;
+  box-shadow:1px 1px 1px gray;
+}
+
+#search2:hover{
+  background-color:rgb(198, 198, 198);
+}
+iframe{
+  width:100rem;
+  width: 60%;
+  height:80%;
+  overflow: hidden;
+  margin:0 auto;
+  position:absolute;
+  border:none;
+  z-index: 1;
+}
+
+.leftpanel{
+width:40%;
+height:100%;
+float:left;
+display: flex;
+box-shadow: 1px 1px 5px black;
+background-image: linear-gradient(-135deg,rgb(104, 150, 207),rgb(104, 150, 207),rgb(125, 103, 207));
+
+
+}
+
+.rightpanel{
+width:60%;
+height:100%;
+float:right;
+display: flex;
+box-shadow: 1px 1px 5px black;
+background-image: linear-gradient(45deg,rgb(104, 150, 207),rgb(104, 150, 207),rgb(125, 103, 207));
+text-align: center;
+justify-content: center;
+}
+
+
+.leftwrap{
+display:block;
+margin:0 auto;
+width:90%;
+}
+
+.accountdisplay{
+  background-color: rgb(222, 213, 191);
+  width:300px;
+  height:100%;
+  border-style: inset;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-weight: bold;
+
+}
+
+
+.accountdata{
+  width: 90%;
+  display:block;
+  height:50px;
+  margin:10px auto;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+  text-shadow: 1px 1px 1px gray;
+  text-decoration: none;
+}
+
+.accountdata:active{
+transform: scale(0.99);
+box-sizing: 1px 1px 5px black;
+}
+
+.displaydetail{
+width:590px;
+height:90%;
+border-style: inset;
+background: rgba(128, 94, 77, 1);
+float:right;
+margin:0;
+}
+
+.displayproduct{
+  height:590px;
+  width:100%;
+}
+
+.test{
+  position:absolute;
+  bottom:130px;
+  right:310px;
+}
+#addbtn{
+  width:150px;
+  height:50px;
+}
+
+.displayframe{
+width:590px;
+height:530px;
+}

@@ -1,0 +1,72 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrap{
+color:white;
+width:90%;
+margin-top: 100px;
+margin: 0 auto;
+padding-top:20px;
+}
+
+#userid,#staffid,#customerid{
+  display:block;
+  margin-bottom: 10px;
+width:50%;
+height:7%;
+border-radius: 10px;
+outline:none;
+background-color: #837a74;
+text-align: center;
+padding-top: 10px;
+color:white;
+font-size: 20px;
+}
+
+#btn{
+width:70%;
+height:15%;
+color:white;
+font-weight: bold;
+justify-content: center;
+text-align: center;
+padding-top:1%;
+border-radius: 20px;
+border:1px solid #6680e6;
+
+}
+
+.leftinfo input,.leftinfo select{
+  border-radius: 5px;
+  border:solid 1px gray;
+    display:block;
+   width:80%;
+   height: 10%;
+  margin-bottom: 10px;
+}
+
+
+
+
+.leftinfo{
+  float:top;
+    width:50%;
+  height:70%;
+    margin:0 auto;
+}
+
+.rightinfo{
+    margin:0 auto;
+  float:right;
+  width:50%;
+  height:70%;
+
+}
+
+.bottominfo{
+  float:bottom;
+  width:100%;
+  height:10%;
+  margin:10px auto;
+}

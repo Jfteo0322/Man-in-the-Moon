@@ -1,0 +1,447 @@
+body{
+  margin:0;
+}
+.wrapper{
+  display:block;
+  margin:0;
+  padding:0;
+}
+
+.leftband {
+  float: left;
+  text-align: center;
+  background: linear-gradient(-135deg,rgb(106, 100, 84),rgb(46, 167, 190));
+  color: white;
+  font-size: 30px;
+  height:100%;
+    box-shadow: 0 0 5px black;
+    position: fixed;
+}
+
+.leftband img{
+  display:block;
+  width:150px;
+  margin:30px;
+}
+
+.searchbox{
+  height: 40px;
+  border-radius: 60px;
+  padding:10px;
+  border:none;
+  outline: none;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+  margin-bottom: 10px;
+}
+
+.searchbtn{
+  height: 30px;
+  border-radius: 60px;
+  border:none;
+  outline: none;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+  margin-bottom: 15px;
+  margin-right:80px;
+  font-size:16px;
+  width:80px;
+  background: rgba(0,0,0,0.6);
+  color:white;
+}
+
+.leftband input[type="submit"]:active {
+    transform:scale(0.95);
+}
+
+.logout{
+  color:white;
+  background: #328bd1;
+  border:none;
+  outline:none;
+  padding:10px 20px 10px 20px;
+  font-size:20px;
+  box-shadow: 0 0 5px black;
+  border-radius: 30px;
+  position: absolute;
+  left:10;
+  bottom:10;
+}
+
+.logout:active, .addproduct:active{
+      transform:scale(0.95);
+}
+
+.main{
+  float:left;
+  margin-left: 15%;
+}
+
+.title{
+  height: 30px;
+  padding:8px 5px 1px 5px;
+  color:white;
+  background: rgba(0, 0, 0, 0.7);
+  margin:20px;
+  width:170px;
+text-align: center;
+border-radius: 20px;
+box-shadow: 1px 1px 5px #2e313b;
+font-size: 20px;
+}
+
+.productdisplay{
+  float:left;
+  margin:10px;
+  padding:10px;
+  height:450px;
+  width:300px;
+     position:relative;
+}
+
+.backimg {
+  width:93%;
+  height:95%;
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/different-types-of-dairy-products-royalty-free-image-1568741374.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  filter: blur(5px);
+  border-radius: 20px;
+  position: absolute;
+}
+.contentproduct{
+  margin:0 auto;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  color:white;
+  height:100%;
+    border: 1px solid black;
+  border-radius: 20px;
+  background-color:rgba(0, 0,0,0.5);
+   z-index: 100;
+   position:relative;
+}
+
+.contentproduct img{
+  margin-top:-30px;
+    height:120px;
+    width:auto;
+    max-width:100px;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+
+.productdescription{
+  background: rgba(255, 255, 255, 0.69);
+  color:black;
+  display: block;
+  height:80px;
+  margin:0 auto;
+  border-radius: 10px;
+  text-align: justify;
+  padding:10px;
+  width:90%;
+  margin-bottom: 10px;
+  overflow-y: auto;
+}
+
+
+.addproduct{
+  color:white;
+  background: #2d92bf;
+  border:none;
+  outline:none;
+  padding:10px 20px 10px 20px;
+  font-size:20px;
+  box-shadow: 0 0 5px black;
+  border-radius: 30px;
+  position: absolute;
+  left:10;
+  bottom:65;
+}
+
+a:link#edit, a:visited#edit{
+  font-size:15px;
+  color:white;
+  padding:5px 10px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+  border-radius: 5px;
+    background-color:#00a46e;
+}
+
+a:hover#edit{
+  background-color:#00a44f;
+}
+
+/*---------------------edit product-----------------*/
+.editproductmain{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 1px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 770px;
+  padding: 5px;
+  text-align: center;
+  filter: blur(0px);
+  font-family: 'Gayathri', sans-serif;
+  font-weight: 100;
+  text-shadow: 1px 1px 1px black;
+}
+.editproductmain img{
+  width:150px;
+  margin:10px;
+}
+
+.editproductbackground{
+    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/different-types-of-dairy-products-royalty-free-image-1568741374.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  filter: blur(6px);
+  border-radius: 20px;
+  height: 100%;
+}
+
+.editproductcontent{
+  margin:auto;
+
+}
+
+.editimg{
+margin-top:-30px;
+        float: left;
+        width:30%;
+}
+
+.editinputs{
+
+    float: left;
+    width:70%;
+}
+
+.sortup{
+  margin-left:-20px;
+    width:100%;
+}
+
+.bottominputs{
+margin-bottom: 10px;
+  width:100%;
+}
+
+.bottominputs textarea{
+width:500px;
+height:100px;
+border-radius: 10px;
+margin:10px;
+outline:none;
+margin-bottom: 20px;
+}
+
+.rightinputs{
+
+    float:left;
+    width:50%;
+}
+
+.leftinputs{
+      float:left;
+          width:50%;
+}
+
+.editproductmain input{
+outline: none;
+border:1px solid black;
+}
+
+input.productname,input.price{
+height:50px;
+width:200px;
+margin-bottom: 10px;
+border-radius: 10px;
+}
+
+select.categories{
+  width:200px;
+  height:30px;
+}
+
+a.delete{
+  text-decoration:none;
+  color:white;
+  background: rgb(203, 136, 113);
+  padding: 5px 20px 1px 20px;
+    text-shadow: 0 0 5px black;
+}
+
+.bottominputs input{
+  margin-right:50px;
+  margin-bottom: 10px;
+  margin-left: -70px;
+  background: rgb(135, 203, 113);
+  color:white;
+  border: none;
+  padding:5px 10px 5px 10px;
+  text-shadow: 0 0 5px black;
+  cursor: pointer;
+}
+
+.bottominputs input, .bottominputs a{
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.bottominputs input:active, .deletebtn:active{
+  transform: scale(0.98);
+}
+
+/*-----------------------create product-----------------------------*/
+.createinputs{
+    float: left;
+    width:100%;
+    display:block;
+}
+
+.Crightinputs{
+    float:left;
+    width:30%;
+}
+
+.Cleftinputs{
+      float:left;
+          width:30%;
+}
+
+.Csortup{
+  margin-left: 150px;
+  width:100%;
+}
+
+.Cbottominputs input{
+  margin-right:40px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  color:white;
+  border: none;
+  padding:5px 10px 5px 10px;
+  text-shadow: 0 0 5px black;
+  cursor: pointer;
+}
+
+.Cbottominputs input{
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.Cbottominputs input:active{
+  transform: scale(0.98);
+}
+
+.Cbottominputs{
+margin-bottom: 10px;
+  width:100%;
+}
+
+.Cbottominputs textarea{
+width:500px;
+height:100px;
+border-radius: 10px;
+margin:10px;
+outline:none;
+margin-bottom: 20px;
+}
+
+.back{
+  position: absolute;
+  z-index: 2;
+  filter: blur(0px);
+bottom:10;
+  left:10;
+  width:150px;
+  height:40px;
+border-radius: 50px;
+outline: none;
+border:none;
+background-image: linear-gradient(rgb(202, 191, 228),rgb(137, 185, 210));
+font-family: 'Gayathri', sans-serif;
+font-size: 20px;
+color: rgb(34, 36, 61);
+text-shadow: 0 0 1px  rgb(57, 59, 83);
+padding-top: 10px;
+}
+
+.back:active{
+  transform: scale(0.97);
+}
+/*-----------------------------------------------------------------------------*/
+.editproductmain2{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 1px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  filter: blur(0px);
+  font-family: 'Gayathri', sans-serif;
+  font-weight: 100;
+  text-shadow: 1px 1px 1px black;
+  height:100%;
+}
+.editproductmain2 img{
+  width:150px;
+  margin:0;
+}
+
+.editproductmain3{
+  color: white;
+  font-weight: bold;
+display:block;
+margin:0 auto;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Gayathri', sans-serif;
+  text-shadow: 1px 1px 1px black;
+}
+
+.editimg2 img{
+  width:100px;
+}
+textarea.descrip{
+  margin:0 auto;
+width:50%;
+    background:rgba(255, 255, 255, 0.4);
+    padding:10px;
+    outline:none;
+    text-align: center;
+    height:20%;
+      color: white;
+        text-shadow: 1px 1px 1px black;
+        border-radius: 10px;s
+}
+
+.bottominputs2{
+  width:20%;
+}
+
+.addbtn input{
+width:200px;
+height:50px;
+
+ }

@@ -1,0 +1,89 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.customerwrap{
+  color:white;
+  width:90%;
+margin-top: 100px;
+margin: 0 auto;
+padding-top:20px;
+}
+
+#userid,#staffid,#customerid{
+  display:block;
+  margin-bottom: 10px;
+width:50%;
+height:7%;
+border-radius: 10px;
+outline:none;
+background-color: #837a74;
+text-align: center;
+padding-top: 10px;
+color:white;
+font-size: 20px;
+}
+
+#btn{
+margin:20px;
+width:120px;
+height:40px;
+color:white;
+font-weight: bold;
+}
+
+.deletebtn{
+  margin:20px;
+width:120px;
+height:30px;
+color:white;
+font-weight: bold;
+margin-left: 200px;
+background: rgb(139, 45, 60);
+position: absolute;
+text-align: center;
+padding-top: 10px;
+}
+
+
+.leftinfo input,.leftinfo select{
+  border-radius: 5px;
+  border:solid 1px gray;
+    display:block;
+   width:80%;
+   height: 10%;
+  margin-bottom: 10px;
+}
+
+.rightinfo input,.rightinfo select,.rightinfo textarea{
+    border-radius: 5px;
+      border:solid 1px gray;
+  display:block;
+   width:80%;
+   height: 10%;
+   margin-bottom: 10px;
+}
+
+
+.leftinfo{
+  float:left;
+    width:50%;
+  height:70%;
+    margin:0 auto;
+}
+
+.rightinfo{
+    margin:0 auto;
+  float:right;
+  width:50%;
+  height:70%;
+
+}
+
+.bottominfo{
+  float:bottom;
+  width:90%;
+  height:10%;
+  margin:10px auto;
+  position: absolute;
+  bottom: 20%;
+}

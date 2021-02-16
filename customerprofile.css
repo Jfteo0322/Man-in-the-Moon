@@ -1,0 +1,183 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+nav{
+	flex:1;
+	text-align:right;
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li{
+	display: inline-block;
+	margin-right:20px;
+}
+#MenuItems a {
+	color: #fff;
+}
+a{
+	text-decoration: none;
+	color: #555;
+}
+p{
+	color: #000000;
+}
+.mainbar{
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+/* ------ Customer Profile ------ */
+.btn{
+	display: inline-block;
+	background: #f2c64e;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: 0.5s;
+	border: none;
+	font-size: 1rem;
+	cursor: pointer;
+	outline: none;
+}
+.btn:active{
+	transform: translateY(1px);
+ 	transform:scale(0.99);
+}
+
+.btn:hover{
+	background: #bfa55c;
+}
+.title{
+	padding-top: 55px;
+	text-align:center;
+	margin: 0 auto 80px;
+	position: relative;
+	line-height: 60px;
+	color: #555;
+
+}
+.title::after{
+	content: '';
+	background: #f2c64e;
+	width:80px;
+	height:5px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.card{
+	width: 550px;
+	height: 850px;
+	display:block;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+
+/*------ footer ------*/
+.footer{
+	background: #000;
+	color: #8a8a8a;
+	font-size: 14px;
+	padding: 60px 0 20px;
+}
+.footer p{
+	color: #8a8a8a;
+}
+.footer h3{
+	color: #fff;
+	margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3,{
+	min-width: 250px;
+	margin-bottom: 20px;
+}
+.footer-col-1{
+	flex-basis: 30%;
+}
+.footer-col-2{
+	flex:1;
+	text-align: center;
+}
+.footer-col-2 img{
+	width: 180px;
+	margin-bottom: 20px;
+}
+.footer-col-3{
+	flex-basis: 12%;
+	text-align: center;
+}
+ul{
+	list-style-type: none;
+}
+.app-logo{
+	margin-top: 20px;
+}
+.app-logo img{
+	width: 140px;
+}
+.footer hr{
+	border: none;
+	background: #b5b5b5;
+	height: 1px;
+	margin: 20px 0;
+}
+.copyright{
+	text-align: left;
+}
+.menu-icon{
+	width:20px;
+	margin-left: 20px;
+	display: none;
+	display: none;
+}
+
+.logout{
+	display: inline-block;
+	background: #f2c64e;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: 0.5s;
+	border: none;
+	font-size: 1rem;
+	cursor: pointer;
+	outline: none;
+	margin:0 auto;
+	margin-left:225px;
+}
+.logout:active{
+	transform: translateY(1px);
+ 	transform:scale(0.99);
+	outline:none;
+}
+
+.logout:hover{
+	background: #bfa55c;
+}
