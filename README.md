@@ -10,8 +10,8 @@ A web application built with HTML, CSS, PHP and JavaScript
  * Register Page 
  * Customer Home Page
  * Customer Account Page
- * View Product 
- * View Product Details 
- * Add to cart 
- * View purchase history
- * Checkout form
+ * View Product Page
+ * View Product Details Page
+ * Add to Cart function
+ * View Purchase History Page
+ * Checkout Form Page
