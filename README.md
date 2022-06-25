@@ -4,7 +4,7 @@ A web application built with HTML,CSS,PHP and JavaScript
 ## Features 
  * Login as Admin/Staff/User
  * Dashboard for Admin/Staff/User
-     *Admin
+     * Admin
  * Edit and Delete Profile as Admin
  * Create Staff Account as Admin
  * Edit Product Profile as Staff  
