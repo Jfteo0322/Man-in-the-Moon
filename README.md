@@ -1,5 +1,5 @@
 # Man-in-the-Moon
-A web application built with HTML,CSS,PHP and JavaScript
+A web application built with HTML, CSS, PHP and JavaScript
 
 ## Features 
  * Login as Admin/Staff/User
